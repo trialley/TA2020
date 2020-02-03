@@ -8,19 +8,37 @@
 	<meta name="description" content="Description">
 	<meta name="viewport"
 		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
 </head>
 
 <body>
 	<div id="app"></div>
-	<script>
-		window.$docsify = {
-			name: 'C++/Linux后台校招手册',
-			repo: 'https://github.com/trialley/TA2020',
-			search: 'auto',
-		}
-	</script>
-	<script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
 </body>
+
+<link rel="stylesheet" href="./static/vue.css">
+<script src="./static/docsify.min.js"></script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script>
+	window.$docsify = {
+		name: 'C++/Linux后台校招手册',
+		repo: 'https://github.com/trialley/TA2020',
+		search: 'auto',
+	}
+	window.MathJax.Hub.Config({
+		// showProcessingMessages: false, //关闭js加载过程信息
+		messageStyle: "none", //不显示信息
+		jax: ["input/TeX", "output/HTML-CSS"],
+		tex2jax: {
+			inlineMath: [["$", "$"], ["\\(", "\\)"]], //行内公式选择符
+			displayMath: [["$$", "$$"], ["\\[", "\\]"]], //段内公式选择符
+			skipTags: ["script", "noscript", "style", "textarea", "pre", "code", "a"] //避开某些标签
+		},
+		"HTML-CSS": {
+			availableFonts: ["STIX", "TeX"], //可选字体
+			showMathMenu: false //关闭右击菜单显示
+		}
+	});
+
+</script>
 
 </html>
