@@ -26,7 +26,8 @@ C++/Linux后台校招手册目录
    2. <img src="https://static.leetcode-cn.com/cn-assets/icons/favicon-16x16.png"  style="height:0.9rem" />力扣
 3. 其他知识
    1. [<img src="https://git-scm.com/favicon.ico" style="height:0.9rem"/>Git](./git.md)
-   2. [<img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2271514494,1789142084&fm=26&gp=0.jpg" style="height:1rem"/>正则表达式](./regexp.md)
+   2. <img src="./.README.assets/latex.jpg"  style="height:1rem"/>Latex
+   3. [<img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2271514494,1789142084&fm=26&gp=0.jpg" style="height:1rem"/>正则表达式](./regexp.md)
 4. 项目
 5. [简历投递与内推途径](./chance.md)
 6. [面试经验](./interview.md)
