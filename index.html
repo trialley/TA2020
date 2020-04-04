@@ -15,30 +15,30 @@
 </body>
 
 <link rel="stylesheet" href="./static/vue.css">
-<script src="./static/docsify.min.js"></script>
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+<!-- <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> -->
 </script>
 <script>
 	window.$docsify = {
 		name: 'C++/Linux后台校招手册',
 		repo: 'https://github.com/trialley/TA2020',
-		search: 'auto',
-	}
-	window.MathJax.Hub.Config({
-		// showProcessingMessages: false, //关闭js加载过程信息
-		messageStyle: "none", //不显示信息
-		jax: ["input/TeX", "output/HTML-CSS"],
-		tex2jax: {
-			inlineMath: [["$", "$"], ["\\(", "\\)"]], //行内公式选择符
-			displayMath: [["$$", "$$"], ["\\[", "\\]"]], //段内公式选择符
-			skipTags: ["script", "noscript", "style", "textarea", "pre", "code", "a"] //避开某些标签
+		search: {
+			noData: {
+				'/de-de/': 'Keine Ergebnisse!',
+				'/zh-cn/': '没有结果!',
+				'/': 'No results!'
+			},
+			paths: 'auto',
+			placeholder: {
+				'/de-de/': 'Suche',
+				'/zh-cn/': '搜索',
+				'/': 'Search'
+			}
 		},
-		"HTML-CSS": {
-			availableFonts: ["STIX", "TeX"], //可选字体
-			showMathMenu: false //关闭右击菜单显示
-		}
-	});
+	}
+
 
 </script>
+<script src="./static/docsify.min.js"></script>
+<script src="./static/search.js"></script>
 
 </html>
